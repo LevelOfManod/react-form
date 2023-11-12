@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: $primaryFontStyle;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+form{
+    background-color: $primaryColorWhite;
+    padding: 20px 60px;
+    border-radius: 5px;
+    box-shadow: $boxFormShadow;
+}
+
+h1{
+    color: $colorTitle1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
